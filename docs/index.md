@@ -18,7 +18,7 @@ This is an example tutorial of point-to-point wireless communication between 2 A
 
 
 ## Hardware Setup
-1. Stack Cytron RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using CT-UNO.
+1. Stack Cytron RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using [CT-UNO](http://www.cytron.com.my/p-ct-uno).
 2. Prepare **2** sets for this.
 
 ## Pictures
