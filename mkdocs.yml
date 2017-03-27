@@ -1,2 +1,7 @@
-site_name: Testing
+site_name: Point-to-point Communication of Arduinos with RFM LoRa Shield
+repo_url: https://github.com/CytronTechnologies/RFM-LoRa-Shield-Examples
 theme: 'material'
+
+pages:
+    - 'Getting Started': 'index.md'
+    - 'Arduino Sketches Overview': 'Arduino-Sketches-Overview.md'
