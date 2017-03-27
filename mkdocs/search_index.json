@@ -2,38 +2,43 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Point-to-point Communication of Arduinos with RFM LoRa Shield\n\n\nThis is an example tutorial of point-to-point wireless communication between 2 Arduinos using RFM LoRa Shields.\n\n\nOverview\n\n\n\n\nBasic Requirements\n\n\nBasic Hardware Setup\n\n\nRadioHead Library Installation\n\n\nUploading the Sketches\n\n\nArduino Sketches Overview\n\n\nArduino Serial Monitor Screenshots\n\n\n\n\nBasic Requirements\n\n\n\n\n2 RFM LoRa Shields\n\n\n2 Arduino-compatible boards\n\n\nUSB cable/accessories to upload Arduino program\n\n\nArduino IDE software\n\n\n\n\nBasic Hardware Setup\n\n\n\n\nStack RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using CT-UNO.\n\n\nPrepare \n2\n sets for this. \nCT-UNO with LoRa Shield on top\nCT-UNO + LoRa Shield with antenna installed\n\n\n\n\nRadioHead Library Installation\n\n\n\n\nDownload the zip file from \nhere\n.\n\n\nOpen Arduino IDE, go to \nSketch \n Include Library \n Add .ZIP Library\n, choose the downloaded zip file and click Open.\n\n\n\n\nUploading the Sketches\n\n\n\n\nDownload the Arduino sketches as zip files \nOR\n git clone this repo from \nhere\n.\n\n\nGrab one set of RFM LoRa Shield + Arduino that you have setup just now. We call it as \nArduino LoRa Client\n.\n\n\nOpen and upload \nrf95_client.ino\n sketch to \nArduino LoRa Client\n.\n\n\nGrab another set of RFM LoRa Shield + Arduino that you have setup just now. We call it as \nArduino LoRa Server\n.\n\n\nOpen and upload \nrf95_server.ino\n sketch to \nArduino LoRa Server\n.\n\n\n\n\nArduino Sketches Overview\n\n\n\n\nRefer \nhere\n.\n\n\n\n\nArduino Serial Monitor Screenshots\n\n\n\n\nArduino LoRa Server\n\n\n\n\nArduino LoRa Client", 
-            "title": "Home"
+            "text": "Getting Started\n\n\nThis is an example tutorial of point-to-point wireless communication between 2 Arduinos using Cytron RFM LoRa Shields.\n\n\nOverview\n\n\n\n\nBasic Requirements\n\n\nHardware Setup\n\n\nLibrary Installation\n\n\nUploading Sketches\n\n\nArduino Sketches Overview\n\n\nScreenshots\n\n\n\n\nBasic Requirements\n\n\n\n\n2 \nCytron RFM LoRa Shields\n\n\n2 Arduino-compatible boards\n\n\nUSB cable/accessories to upload Arduino program\n\n\nArduino IDE software\n\n\n\n\nHardware Setup\n\n\n\n\nStack Cytron RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using CT-UNO.\n\n\nPrepare \n2\n sets for this.\n\n\n\n\nPictures\n\n\nCT-UNO with LoRa Shield on top\n\n\nCT-UNO with LoRa Shield on top\n\n\nLibrary Installation\n\n\n\n\nDownload the zip file from \nhere\n.\n\n\nOpen Arduino IDE, go to \nSketch \n Include Library \n Add .ZIP Library\n, choose the downloaded zip file and click Open.\n\n\n\n\nUploading Sketches\n\n\n\n\nDownload the Arduino sketches as zip files \nOR\n git clone this repo from \nhere\n.\n\n\nGrab one set of RFM LoRa Shield + Arduino that you have setup just now. We call it as \nArduino LoRa Client\n.\n\n\nOpen and upload \nrf95_client.ino\n sketch to \nArduino LoRa Client\n.\n\n\nGrab another set of RFM LoRa Shield + Arduino that you have setup just now. We call it as \nArduino LoRa Server\n.\n\n\nOpen and upload \nrf95_server.ino\n sketch to \nArduino LoRa Server\n.\n\n\n\n\nArduino Sketches Overview\n\n\n\n\nRefer \nhere\n.\n\n\n\n\nScreenshots\n\n\n\n\nArduino LoRa Server\n\n\n\n\nArduino LoRa Client", 
+            "title": "Getting Started"
         }, 
         {
-            "location": "/#point-to-point-communication-of-arduinos-with-rfm-lora-shield", 
-            "text": "This is an example tutorial of point-to-point wireless communication between 2 Arduinos using RFM LoRa Shields.", 
-            "title": "Point-to-point Communication of Arduinos with RFM LoRa Shield"
+            "location": "/#getting-started", 
+            "text": "This is an example tutorial of point-to-point wireless communication between 2 Arduinos using Cytron RFM LoRa Shields.", 
+            "title": "Getting Started"
         }, 
         {
             "location": "/#overview", 
-            "text": "Basic Requirements  Basic Hardware Setup  RadioHead Library Installation  Uploading the Sketches  Arduino Sketches Overview  Arduino Serial Monitor Screenshots", 
+            "text": "Basic Requirements  Hardware Setup  Library Installation  Uploading Sketches  Arduino Sketches Overview  Screenshots", 
             "title": "Overview"
         }, 
         {
             "location": "/#basic-requirements", 
-            "text": "2 RFM LoRa Shields  2 Arduino-compatible boards  USB cable/accessories to upload Arduino program  Arduino IDE software", 
+            "text": "2  Cytron RFM LoRa Shields  2 Arduino-compatible boards  USB cable/accessories to upload Arduino program  Arduino IDE software", 
             "title": "Basic Requirements"
         }, 
         {
-            "location": "/#basic-hardware-setup", 
-            "text": "Stack RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using CT-UNO.  Prepare  2  sets for this.  CT-UNO with LoRa Shield on top CT-UNO + LoRa Shield with antenna installed", 
-            "title": "Basic Hardware Setup"
+            "location": "/#hardware-setup", 
+            "text": "Stack Cytron RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using CT-UNO.  Prepare  2  sets for this.", 
+            "title": "Hardware Setup"
         }, 
         {
-            "location": "/#radiohead-library-installation", 
+            "location": "/#pictures", 
+            "text": "CT-UNO with LoRa Shield on top  CT-UNO with LoRa Shield on top", 
+            "title": "Pictures"
+        }, 
+        {
+            "location": "/#library-installation", 
             "text": "Download the zip file from  here .  Open Arduino IDE, go to  Sketch   Include Library   Add .ZIP Library , choose the downloaded zip file and click Open.", 
-            "title": "RadioHead Library Installation"
+            "title": "Library Installation"
         }, 
         {
-            "location": "/#uploading-the-sketches", 
+            "location": "/#uploading-sketches", 
             "text": "Download the Arduino sketches as zip files  OR  git clone this repo from  here .  Grab one set of RFM LoRa Shield + Arduino that you have setup just now. We call it as  Arduino LoRa Client .  Open and upload  rf95_client.ino  sketch to  Arduino LoRa Client .  Grab another set of RFM LoRa Shield + Arduino that you have setup just now. We call it as  Arduino LoRa Server .  Open and upload  rf95_server.ino  sketch to  Arduino LoRa Server .", 
-            "title": "Uploading the Sketches"
+            "title": "Uploading Sketches"
         }, 
         {
             "location": "/#arduino-sketches-overview", 
@@ -41,9 +46,9 @@
             "title": "Arduino Sketches Overview"
         }, 
         {
-            "location": "/#arduino-serial-monitor-screenshots", 
+            "location": "/#screenshots", 
             "text": "Arduino LoRa Server   Arduino LoRa Client", 
-            "title": "Arduino Serial Monitor Screenshots"
+            "title": "Screenshots"
         }, 
         {
             "location": "/Arduino-Sketches-Overview/", 
