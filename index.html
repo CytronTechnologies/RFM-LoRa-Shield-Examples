@@ -36,6 +36,8 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
+      <link rel="stylesheet" href="./stylesheets/style.css">
+    
     
   </head>
   
@@ -61,7 +63,8 @@
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <a href="." title="Point-to-point Communication of Arduinos with RFM LoRa Shield" class="md-icon md-icon--home md-header-nav__button">
+          <a href="." title="Point-to-point Communication of Arduinos with RFM LoRa Shield" class="md-logo md-header-nav__button">
+            <img src="./img/cytron.png" width="24" height="24">
           </a>
         
       </div>
@@ -146,7 +149,9 @@
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
     
-      <i class="md-icon md-icon--home md-nav__button"></i>
+      <i class="md-logo md-nav__button">
+        <img src="./img/cytron.png">
+      </i>
     
     Point-to-point Communication of Arduinos with RFM LoRa Shield
   </label>
@@ -377,9 +382,13 @@
                   <a href="https://github.com/CytronTechnologies/RFM-LoRa-Shield-Examples/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="getting-started">Getting Started</h1>
+                <h1 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h1>
 <p>This is an example tutorial of point-to-point wireless communication between 2 Arduinos using Cytron RFM LoRa Shields.</p>
-<h2 id="overview">Overview</h2>
+<div class="admonition warning">
+<p class="admonition-title">Important !!</p>
+<p>This tutorial requires 2 Cytron RFM LoRa Shields.</p>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <ol>
 <li><a href="#basic-requirements">Basic Requirements</a></li>
 <li><a href="#hardware-setup">Hardware Setup</a></li>
@@ -388,27 +397,27 @@
 <li><a href="./Arduino-Sketches-Overview">Arduino Sketches Overview</a></li>
 <li><a href="#screenshots">Screenshots</a></li>
 </ol>
-<h2 id="basic-requirements">Basic Requirements</h2>
+<h2 id="basic-requirements">Basic Requirements<a class="headerlink" href="#basic-requirements" title="Permanent link">&para;</a></h2>
 <ol>
 <li>2 <a href="http://www.cytron.com.my/p-shield-lora-rfm">Cytron RFM LoRa Shields</a></li>
 <li>2 Arduino-compatible boards</li>
 <li>USB cable/accessories to upload Arduino program</li>
 <li><a href="https://www.arduino.cc/en/Main/Software">Arduino IDE software</a></li>
 </ol>
-<h2 id="hardware-setup">Hardware Setup</h2>
+<h2 id="hardware-setup">Hardware Setup<a class="headerlink" href="#hardware-setup" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Stack Cytron RFM LoRa Shield onto Arduino compatible board with antenna installed as shown in picture below. In this case we are using <a href="http://www.cytron.com.my/p-ct-uno">CT-UNO</a>.</li>
 <li>Prepare <strong>2</strong> sets for this.</li>
 </ol>
-<h2 id="pictures">Pictures</h2>
+<h2 id="pictures">Pictures<a class="headerlink" href="#pictures" title="Permanent link">&para;</a></h2>
 <p><p><strong>CT-UNO with LoRa Shield on top</strong></p><img alt="" src="./img/RFM_LORA_SHIELD_with_CT_UNO.png" />
 <p><strong>CT-UNO with LoRa Shield and antenna installed</strong></p><img alt="" src="./img/Full_LoRa_Set.png" /></p>
-<h2 id="library-installation">Library Installation</h2>
+<h2 id="library-installation">Library Installation<a class="headerlink" href="#library-installation" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Download the zip file from <a href="https://github.com/CytronTechnologies/RadioHead">here</a>.</li>
 <li>Open Arduino IDE, go to <strong>Sketch &gt; Include Library &gt; Add .ZIP Library</strong>, choose the downloaded zip file and click Open.</li>
 </ol>
-<h2 id="uploading-sketches">Uploading Sketches</h2>
+<h2 id="uploading-sketches">Uploading Sketches<a class="headerlink" href="#uploading-sketches" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Download the Arduino sketches as zip files <strong>OR</strong> git clone this repo from <a href="https://github.com/CytronTechnologies/RFM-LoRa-Shield-Examples">here</a>.</li>
 <li>Grab one set of RFM LoRa Shield + Arduino that you have setup just now. We call it as <strong>Arduino LoRa Client</strong>.</li>
@@ -416,11 +425,11 @@
 <li>Grab another set of RFM LoRa Shield + Arduino that you have setup just now. We call it as <strong>Arduino LoRa Server</strong>.</li>
 <li>Open and upload <code>rf95_server.ino</code> sketch to <strong>Arduino LoRa Server</strong>.</li>
 </ol>
-<h2 id="arduino-sketches-overview">Arduino Sketches Overview</h2>
+<h2 id="arduino-sketches-overview">Arduino Sketches Overview<a class="headerlink" href="#arduino-sketches-overview" title="Permanent link">&para;</a></h2>
 <blockquote>
 <p>Refer <a href="./Arduino-Sketches-Overview">here</a>.</p>
 </blockquote>
-<h2 id="screenshots">Screenshots</h2>
+<h2 id="screenshots">Screenshots<a class="headerlink" href="#screenshots" title="Permanent link">&para;</a></h2>
 <ul>
 <li><p><b>Arduino LoRa Server</b></p>
 <img alt="" src="./img/lorarx.png" /></li>
@@ -475,6 +484,22 @@
       </div>
       
         
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/CytronTechnologies" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.facebook.com/cytrontech/" class="md-footer-social__link fa fa-facebook"></a>
+    
+      <a href="https://instagram.com/cytrontech/" class="md-footer-social__link fa fa-instagram"></a>
+    
+      <a href="https://plus.google.com/112639852007306050798/" class="md-footer-social__link fa fa-google-plus"></a>
+    
+      <a href="https://www.youtube.com/user/cytrontech" class="md-footer-social__link fa fa-youtube"></a>
+    
+  </div>
+
       
     </div>
   </div>
