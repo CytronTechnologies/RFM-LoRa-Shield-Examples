@@ -1,6 +1,10 @@
 # Getting Started
 This is an example tutorial of point-to-point wireless communication between 2 Arduinos using Cytron RFM LoRa Shields.
 
+!!! warning "Important !!"
+
+    This tutorial requires 2 Cytron RFM LoRa Shields.
+
 ## Overview
 1. [Basic Requirements](#basic-requirements)
 2. [Hardware Setup](#hardware-setup)

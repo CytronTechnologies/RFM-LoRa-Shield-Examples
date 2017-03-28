@@ -1,7 +1,7 @@
 ## Arduino Sketches Overview
 
 ### rf95_client.ino ###
-```
+``` c++
 // LoRa 9x_TX
 // -*- mode: C++ -*-
 // Example sketch showing how to create a simple messaging client (transmitter)
@@ -110,7 +110,7 @@ void loop()
 ```
 
 ### rf95_server.ino ###
-```
+``` c++
 // Arduino9x_RX
 // -*- mode: C++ -*-
 // Example sketch showing how to create a simple messaging client (receiver)
