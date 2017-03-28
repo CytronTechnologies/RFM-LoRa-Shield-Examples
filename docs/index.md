@@ -23,7 +23,7 @@ This is an example tutorial of point-to-point wireless communication between 2 A
 
 ## Pictures
 <p>**CT-UNO with LoRa Shield on top**</p>![](img/RFM_LORA_SHIELD_with_CT_UNO.png)
-<p>**CT-UNO with LoRa Shield on top**</p>![](img/Full_LoRa_Set.png)
+<p>**CT-UNO with LoRa Shield and antenna installed**</p>![](img/Full_LoRa_Set.png)
 
 ## Library Installation
 1. Download the zip file from [here](https://github.com/CytronTechnologies/RadioHead).

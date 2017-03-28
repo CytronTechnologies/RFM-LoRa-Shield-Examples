@@ -5,3 +5,25 @@ theme: 'material'
 pages:
     - 'Getting Started': 'index.md'
     - 'Arduino Sketches Overview': 'Arduino-Sketches-Overview.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+
+extra:
+  logo: 'img/cytron.png'
+  social:
+    - type: 'github'
+      link: 'https://github.com/CytronTechnologies'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/cytrontech/'
+    - type: 'instagram'
+      link: 'https://instagram.com/cytrontech/'
+    - type: 'google-plus'
+      link: 'https://plus.google.com/112639852007306050798/'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/user/cytrontech'
+
+extra_css:
+  - 'stylesheets/style.css'
